@@ -19,9 +19,9 @@ from dotenv import load_dotenv, set_key
 
 ENV_PATH = Path(__file__).parent / ".env"
 
-AUTHORIZE_URL = "https://api.thebase.in/1/oauth/authorize"
-TOKEN_URL = "https://api.thebase.in/1/oauth/token"
-USER_INFO_URL = "https://api.thebase.in/1/user/info"
+AUTHORIZE_URL = "https://api.thebase.com/1/oauth/authorize"
+TOKEN_URL = "https://api.thebase.com/1/oauth/token"
+USER_INFO_URL = "https://api.thebase.com/1/user/info"
 
 # アクセストークンの期限切れ判定に使う余裕時間（秒）
 EXPIRY_BUFFER_SECONDS = 60
