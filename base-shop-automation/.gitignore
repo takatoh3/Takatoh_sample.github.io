@@ -1,0 +1,7 @@
+# 秘密情報（client_secretやトークン）が入るファイルはコミットしない
+.env
+
+# Python仮想環境
+venv/
+__pycache__/
+*.pyc
